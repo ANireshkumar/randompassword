@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+#content{
+text-align: center;
+padding: auto;
+height: 100%;
+}
+
+
+#copy-button {
+    background-color: #d247e7; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+
+  #copy-button:hover {
+    background-color: #1ae8fb; 
+  }
