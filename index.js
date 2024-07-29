@@ -2,7 +2,7 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
     const lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
     const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const numberChars = "0123456789";
-    const symbolChars = "!@#$%&*()=";
+    const symbolChars = "!@#$%&*()={}[]:;<>";
 
     let allowedChars = "";
     let password = "";
@@ -40,4 +40,7 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
     const passwordText = document.getElementById("password-display").textContent;
     navigator.clipboard.writeText(passwordText.replace("Generated password: ", ""));
     alert("Password copied!");
+  });
+  document.getElementById("refresh-button").addEventListener("click", function() {
+    location.reload();
   });
