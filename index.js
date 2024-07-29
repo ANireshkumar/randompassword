@@ -26,7 +26,7 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
     return password;
   }
 
-  const passwordLength = 9;
+  const passwordLength = 10;
   const includeLowercase = true;
   const includeUppercase = true;
   const includeNumbers = true;
