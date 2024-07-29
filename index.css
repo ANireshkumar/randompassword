@@ -20,3 +20,15 @@ height: 100%;
   #copy-button:hover {
     background-color: #1ae8fb; 
   }
+
+  #refresh-button{
+    background-color: #d247e7; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  #refresh-button:hover {
+    background-color: #1ae8fb; 
+  }
